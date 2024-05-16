@@ -4,7 +4,7 @@ import "dotenv/config";
 import express from "express";
 import http from "http";
 import cors from "cors";
-import { resolvers } from "./schema/resolvers.js";
+import { resolvers } from "./resolvers/resolvers.js";
 import { typeDefs } from "./schema/typeDefs.js";
 import { expressMiddleware } from "@apollo/server/express4";
 
